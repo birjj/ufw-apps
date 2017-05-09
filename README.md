@@ -11,7 +11,7 @@ git clone git@github.com:birjolaxew/ufw-apps.git
 cd ufw-apps
 for file in ufw-*; do
   app=${file#ufw-}
-  sudo cp $file /etc/ufw/applications.d/
+  sudo cp -i $file /etc/ufw/applications.d/
   sudo ufw app update $app
 done
 ```
