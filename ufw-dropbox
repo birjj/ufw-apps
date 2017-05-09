@@ -1,0 +1,4 @@
+[Dropbox]
+title=Dropbox Client
+description=Dropbox is a home for all your photos, docs, videos, and files
+ports=17500,17600,17603/tcp
