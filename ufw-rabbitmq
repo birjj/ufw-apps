@@ -1,0 +1,4 @@
+[RabbitMQ]
+title=RabbitMQ
+description=RabbitMQ is open source message broker software that implements the Advanced Message Queuing Protocol (AMQP)
+ports=5671,5672/tcp
